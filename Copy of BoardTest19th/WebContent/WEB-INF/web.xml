@@ -22,7 +22,7 @@
          /;
              /login;
              /loginForm;
-             /index;
+             /jsp/index.jsp;
              /list
          </param-value>
      </init-param>

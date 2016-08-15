@@ -34,7 +34,7 @@
 	첨부파일 : 
 	<a href="${pageContext.request.contextPath}/down?path=${file.filePath}&realName=${file.realFileName}&oriName=${file.oriFileName}">${file.oriFileName}</a>(${file.fileSize} byte)
 	<hr>
-	덧글 수정<br>
+	댓글 수정<br>
 	<form action="${pageContext.request.contextPath}/updateComment" method="post">
 		<input type="hidden" name="no" value="${updateComment.no}">
 		<input type="hidden" name="writer" value="${LOGIN_USER.id}">

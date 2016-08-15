@@ -43,20 +43,18 @@
 	<%--댓글 목록 --%>
 	<table border="1px">
 		<tr>
-			<th width="10%">댓글번호</th>
 			<th width="10%">글쓴이</th>
-			<th width="50%">내용</th>
+			<th width="60%">내용</th>
 			<th width="20%">등록일</th>
 			<th width="10%"></th>
 		</tr>
 			<c:choose>
 				<c:when test="${empty commentList}">
-					<td colspan="5">댓글이 없습니다.</td>
+					<td colspan="4">댓글이 없습니다.</td>
 				</c:when>
 				<c:otherwise>
 					<c:forEach var="comment" items="${commentList}">
 					<tr>
-						<td><c:out value="${comment.commentNo}"/></td>
 						<td><c:out value="${comment.writer}"/></td>
 						<td><c:out value="${comment.content}"/></td>
 						<td>

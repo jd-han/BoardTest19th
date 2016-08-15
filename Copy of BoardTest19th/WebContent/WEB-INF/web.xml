@@ -19,6 +19,7 @@
      <init-param>
          <param-name>pages</param-name>
          <param-value>
+         /;
              /login;
              /loginForm;
              /index;

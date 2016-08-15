@@ -49,7 +49,7 @@ public class AuthFilter implements Filter {
 //		 	   ↓/MyBoard
 		String contextPath = hRequest.getContextPath();
 		requestUri = requestUri.substring(contextPath.length());
-		System.out.println(requestUri);
+//		System.out.println(requestUri);
 		
 		boolean isRedirect = false;
 		int index = pageList.indexOf(requestUri);
